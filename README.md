@@ -28,7 +28,8 @@
 <details>
   <summary>Detail</summary>
   
-  > Implementing ChaCha20 on a small-scale hardware system offers an efficient and secure solu-
+  > 
+  Implementing ChaCha20 on a small-scale hardware system offers an efficient and secure solu-
 tion for resource-constrained devices like IoT and embedded systems. Its lightweight design
 ensures low power consumption and high performance without specialized hardware, while
 providing robust encryption, making it ideal for real-time data protection in energy-sensitive
