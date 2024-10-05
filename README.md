@@ -29,27 +29,12 @@
   <summary>Detail</summary>
   
   > 
-  Implementing ChaCha20 on a small-scale hardware system offers an efficient and secure solu-
-tion for resource-constrained devices like IoT and embedded systems. Its lightweight design
-ensures low power consumption and high performance without specialized hardware, while
-providing robust encryption, making it ideal for real-time data protection in energy-sensitive
-applications.<p>
-The problem statement we are dealing with in our project is developing a hardware circuit im-
-plementation of the ChaCha20 encryption algorithm to enhance throughput, reduce latency,
-and minimize power consumption. Our design is planned to enable efficient processing for
-secure communications in embedded systems, addressing limitations found in software imple-
-mentations while ensuring adaptability for various applications and maintaining high security
-standards.<p>
-The main features of our project include removing the very drawbacks in the implementation
-of the chacha20 algorithm without using circuits. High latency in software can hinder real-time
-applications,which can be dealt with using circuits,as hardware circuits can reduce processing
-time through dedicated data paths and pipelining. Software often consumes more power due
-to CPU overhead.On the other hand,circuits can be designed for low power operation, ideal
-for battery-operated devices.Another major pro of using hardware circuits to implement the
-chacha20 algorithm is that hardware circuits can mitigate certain side-channel attacks through
-physical design features, enhancing overall security.Finally, software may require significant
-RAM and CPU resources. Circuits can use smaller, dedicated memory and logic components
-for efficiency,leading to significant optimization of the implementation
+Implementing ChaCha20 on a small-scale hardware system offers an efficient and secure solution for resource-constrained devices like IoT and embedded systems. Its lightweight design ensures low power consumption and high performance without specialized hardware, whileproviding robust encryption, making it ideal for real-time data protection in energy-sensitive applications.<p>
+
+The problem statement we are dealing with in our project is developing a hardware circuit implementation of the ChaCha20 encryption algorithm to enhance throughput, reduce latency, and minimize power consumption. Our design is planned to enable efficient processing for secure communications in embedded systems, addressing limitations found in software implementations while ensuring adaptability for various applications and maintaining high security standards.<p>
+
+The main features of our project include removing the very drawbacks in the implementation of the chacha20 algorithm without using circuits. High latency in software can hinder real-time applications,which can be dealt with using circuits,as hardware circuits can reduce processing time through dedicated data paths and pipelining. Software often consumes more power due to CPU overhead.On the other hand,circuits can be designed for low power operation, ideal for battery-operated devices.Another major pro of using hardware circuits to implement the chacha20 algorithm is that hardware circuits can mitigate certain side-channel attacks through physical design features, enhancing overall security.Finally, software may require significant RAM and CPU resources. Circuits can use smaller, dedicated memory and logic components for efficiency,leading to significant optimization of the implementation
+
 </details>
 
 ## Functional Block Diagram
@@ -57,7 +42,7 @@ for efficiency,leading to significant optimization of the implementation
 <details>
   <summary>Detail</summary>
 
-> Update the functional block diagram here.
+> ![image](Block_Diagram/Block-Diagram.png)
 
 </details>
 
