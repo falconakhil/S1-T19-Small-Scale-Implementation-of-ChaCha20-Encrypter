@@ -63,362 +63,366 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(630,360)" to="(630,560)"/>
-    <wire from="(470,260)" to="(530,260)"/>
-    <wire from="(370,300)" to="(690,300)"/>
-    <wire from="(660,360)" to="(660,500)"/>
-    <wire from="(290,210)" to="(340,210)"/>
-    <wire from="(280,440)" to="(330,440)"/>
-    <wire from="(560,190)" to="(560,260)"/>
-    <wire from="(350,190)" to="(350,200)"/>
-    <wire from="(380,220)" to="(380,230)"/>
-    <wire from="(710,580)" to="(710,670)"/>
-    <wire from="(570,360)" to="(570,450)"/>
-    <wire from="(700,300)" to="(700,330)"/>
-    <wire from="(710,360)" to="(710,580)"/>
-    <wire from="(600,360)" to="(600,390)"/>
-    <wire from="(670,360)" to="(670,570)"/>
-    <wire from="(620,250)" to="(620,330)"/>
-    <wire from="(690,360)" to="(690,440)"/>
-    <wire from="(1010,370)" to="(1010,390)"/>
-    <wire from="(360,200)" to="(360,230)"/>
-    <wire from="(1010,490)" to="(1010,510)"/>
-    <wire from="(570,650)" to="(570,670)"/>
-    <wire from="(700,360)" to="(700,510)"/>
-    <wire from="(560,360)" to="(560,380)"/>
-    <wire from="(590,590)" to="(590,610)"/>
-    <wire from="(710,310)" to="(710,330)"/>
-    <wire from="(620,530)" to="(1110,530)"/>
-    <wire from="(640,360)" to="(640,400)"/>
-    <wire from="(200,420)" to="(230,420)"/>
-    <wire from="(620,360)" to="(620,530)"/>
-    <wire from="(650,360)" to="(650,470)"/>
-    <wire from="(570,280)" to="(590,280)"/>
-    <wire from="(580,360)" to="(580,520)"/>
-    <wire from="(280,430)" to="(300,430)"/>
-    <wire from="(710,580)" to="(1060,580)"/>
-    <wire from="(650,470)" to="(650,630)"/>
-    <wire from="(340,690)" to="(550,690)"/>
-    <wire from="(610,360)" to="(610,460)"/>
-    <wire from="(640,230)" to="(640,330)"/>
-    <wire from="(680,190)" to="(680,290)"/>
-    <wire from="(590,360)" to="(590,590)"/>
-    <wire from="(800,190)" to="(800,310)"/>
-    <wire from="(610,610)" to="(610,670)"/>
-    <wire from="(680,360)" to="(680,410)"/>
-    <wire from="(1110,550)" to="(1110,590)"/>
-    <wire from="(330,720)" to="(590,720)"/>
-    <wire from="(1110,430)" to="(1110,470)"/>
-    <wire from="(560,280)" to="(560,330)"/>
-    <wire from="(690,650)" to="(700,650)"/>
-    <wire from="(560,280)" to="(570,280)"/>
-    <wire from="(650,470)" to="(1110,470)"/>
-    <wire from="(630,560)" to="(960,560)"/>
-    <wire from="(690,660)" to="(690,670)"/>
-    <wire from="(570,450)" to="(1010,450)"/>
-    <wire from="(590,720)" to="(590,730)"/>
-    <wire from="(960,370)" to="(960,380)"/>
-    <wire from="(960,490)" to="(960,500)"/>
-    <wire from="(620,530)" to="(620,670)"/>
-    <wire from="(230,440)" to="(230,450)"/>
-    <wire from="(1060,550)" to="(1060,580)"/>
-    <wire from="(680,410)" to="(680,670)"/>
-    <wire from="(1060,430)" to="(1060,460)"/>
-    <wire from="(690,300)" to="(690,330)"/>
-    <wire from="(680,410)" to="(1110,410)"/>
-    <wire from="(560,380)" to="(560,590)"/>
-    <wire from="(530,260)" to="(530,280)"/>
-    <wire from="(660,500)" to="(960,500)"/>
-    <wire from="(620,190)" to="(620,230)"/>
-    <wire from="(530,280)" to="(560,280)"/>
-    <wire from="(540,650)" to="(570,650)"/>
-    <wire from="(370,260)" to="(370,300)"/>
-    <wire from="(630,610)" to="(720,610)"/>
-    <wire from="(600,390)" to="(1010,390)"/>
-    <wire from="(230,430)" to="(250,430)"/>
-    <wire from="(350,200)" to="(360,200)"/>
-    <wire from="(550,600)" to="(550,660)"/>
-    <wire from="(540,590)" to="(540,650)"/>
-    <wire from="(580,190)" to="(580,250)"/>
-    <wire from="(690,440)" to="(960,440)"/>
-    <wire from="(720,610)" to="(720,660)"/>
-    <wire from="(590,280)" to="(590,330)"/>
-    <wire from="(630,560)" to="(630,610)"/>
-    <wire from="(560,660)" to="(560,670)"/>
-    <wire from="(360,310)" to="(680,310)"/>
-    <wire from="(560,260)" to="(610,260)"/>
-    <wire from="(540,270)" to="(600,270)"/>
-    <wire from="(550,600)" to="(610,600)"/>
-    <wire from="(610,260)" to="(610,330)"/>
-    <wire from="(290,190)" to="(290,210)"/>
-    <wire from="(580,250)" to="(620,250)"/>
-    <wire from="(350,210)" to="(350,230)"/>
-    <wire from="(630,240)" to="(630,330)"/>
-    <wire from="(610,790)" to="(610,820)"/>
-    <wire from="(580,640)" to="(580,670)"/>
-    <wire from="(540,190)" to="(540,270)"/>
-    <wire from="(690,440)" to="(690,650)"/>
-    <wire from="(1010,550)" to="(1010,570)"/>
-    <wire from="(1010,430)" to="(1010,450)"/>
-    <wire from="(660,500)" to="(660,670)"/>
-    <wire from="(670,290)" to="(670,330)"/>
-    <wire from="(540,590)" to="(560,590)"/>
-    <wire from="(780,190)" to="(780,300)"/>
-    <wire from="(580,630)" to="(600,630)"/>
-    <wire from="(340,210)" to="(340,690)"/>
-    <wire from="(620,230)" to="(640,230)"/>
-    <wire from="(670,570)" to="(1010,570)"/>
-    <wire from="(650,220)" to="(650,330)"/>
-    <wire from="(580,520)" to="(1060,520)"/>
-    <wire from="(450,260)" to="(470,260)"/>
-    <wire from="(520,680)" to="(550,680)"/>
-    <wire from="(600,240)" to="(630,240)"/>
-    <wire from="(370,190)" to="(370,230)"/>
-    <wire from="(600,390)" to="(600,620)"/>
-    <wire from="(230,440)" to="(250,440)"/>
-    <wire from="(470,290)" to="(480,290)"/>
-    <wire from="(520,430)" to="(520,680)"/>
-    <wire from="(300,220)" to="(380,220)"/>
-    <wire from="(570,450)" to="(570,640)"/>
-    <wire from="(360,260)" to="(360,310)"/>
-    <wire from="(610,460)" to="(1060,460)"/>
-    <wire from="(1110,370)" to="(1110,410)"/>
-    <wire from="(1110,490)" to="(1110,530)"/>
-    <wire from="(700,300)" to="(780,300)"/>
-    <wire from="(670,290)" to="(680,290)"/>
-    <wire from="(640,220)" to="(650,220)"/>
-    <wire from="(700,510)" to="(1010,510)"/>
-    <wire from="(960,550)" to="(960,560)"/>
-    <wire from="(650,640)" to="(700,640)"/>
-    <wire from="(960,430)" to="(960,440)"/>
-    <wire from="(610,460)" to="(610,600)"/>
-    <wire from="(660,190)" to="(660,330)"/>
-    <wire from="(700,510)" to="(700,640)"/>
-    <wire from="(230,420)" to="(230,430)"/>
-    <wire from="(1060,490)" to="(1060,520)"/>
-    <wire from="(1060,370)" to="(1060,400)"/>
-    <wire from="(650,640)" to="(650,670)"/>
-    <wire from="(640,400)" to="(640,620)"/>
-    <wire from="(300,220)" to="(300,430)"/>
-    <wire from="(640,400)" to="(1060,400)"/>
-    <wire from="(630,700)" to="(630,730)"/>
-    <wire from="(640,190)" to="(640,220)"/>
-    <wire from="(470,260)" to="(470,290)"/>
-    <wire from="(330,440)" to="(330,720)"/>
-    <wire from="(680,310)" to="(680,330)"/>
-    <wire from="(700,650)" to="(700,670)"/>
-    <wire from="(300,430)" to="(520,430)"/>
-    <wire from="(580,290)" to="(580,330)"/>
-    <wire from="(640,630)" to="(640,670)"/>
-    <wire from="(200,450)" to="(230,450)"/>
-    <wire from="(600,630)" to="(600,670)"/>
-    <wire from="(590,610)" to="(610,610)"/>
-    <wire from="(580,520)" to="(580,630)"/>
-    <wire from="(690,660)" to="(720,660)"/>
-    <wire from="(710,310)" to="(800,310)"/>
-    <wire from="(670,570)" to="(670,670)"/>
-    <wire from="(590,590)" to="(1110,590)"/>
-    <wire from="(340,210)" to="(350,210)"/>
-    <wire from="(600,270)" to="(600,330)"/>
-    <wire from="(560,380)" to="(960,380)"/>
-    <wire from="(570,280)" to="(570,330)"/>
-    <wire from="(600,190)" to="(600,240)"/>
-    <wire from="(630,620)" to="(630,670)"/>
-    <wire from="(590,620)" to="(590,670)"/>
-    <wire from="(510,290)" to="(580,290)"/>
-    <wire from="(550,660)" to="(560,660)"/>
-    <wire from="(570,640)" to="(580,640)"/>
-    <wire from="(590,620)" to="(600,620)"/>
-    <wire from="(630,620)" to="(640,620)"/>
-    <wire from="(640,630)" to="(650,630)"/>
-    <comp lib="5" loc="(1110,430)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-    </comp>
-    <comp lib="5" loc="(1060,550)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-    </comp>
-    <comp lib="0" loc="(600,190)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="5" loc="(1010,430)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-    </comp>
-    <comp lib="5" loc="(960,370)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-    </comp>
-    <comp lib="6" loc="(1131,735)" name="Text">
+    <wire from="(710,750)" to="(710,760)"/>
+    <wire from="(590,540)" to="(1030,540)"/>
+    <wire from="(610,810)" to="(610,820)"/>
+    <wire from="(980,580)" to="(980,590)"/>
+    <wire from="(640,620)" to="(640,760)"/>
+    <wire from="(980,460)" to="(980,470)"/>
+    <wire from="(700,500)" to="(700,760)"/>
+    <wire from="(1080,520)" to="(1080,550)"/>
+    <wire from="(250,530)" to="(250,540)"/>
+    <wire from="(1080,640)" to="(1080,670)"/>
+    <wire from="(710,390)" to="(710,420)"/>
+    <wire from="(700,500)" to="(1130,500)"/>
+    <wire from="(580,470)" to="(580,680)"/>
+    <wire from="(550,350)" to="(550,370)"/>
+    <wire from="(680,590)" to="(980,590)"/>
+    <wire from="(640,280)" to="(640,320)"/>
+    <wire from="(250,520)" to="(270,520)"/>
+    <wire from="(560,740)" to="(590,740)"/>
+    <wire from="(550,370)" to="(580,370)"/>
+    <wire from="(650,700)" to="(740,700)"/>
+    <wire from="(390,350)" to="(390,390)"/>
+    <wire from="(620,480)" to="(1030,480)"/>
+    <wire from="(370,290)" to="(380,290)"/>
+    <wire from="(570,690)" to="(570,750)"/>
+    <wire from="(560,680)" to="(560,740)"/>
+    <wire from="(600,280)" to="(600,340)"/>
+    <wire from="(650,650)" to="(650,700)"/>
+    <wire from="(710,530)" to="(980,530)"/>
+    <wire from="(740,700)" to="(740,750)"/>
+    <wire from="(610,370)" to="(610,420)"/>
+    <wire from="(580,750)" to="(580,760)"/>
+    <wire from="(380,400)" to="(700,400)"/>
+    <wire from="(580,350)" to="(630,350)"/>
+    <wire from="(560,360)" to="(620,360)"/>
+    <wire from="(570,690)" to="(630,690)"/>
+    <wire from="(630,350)" to="(630,420)"/>
+    <wire from="(310,280)" to="(310,300)"/>
+    <wire from="(650,330)" to="(650,420)"/>
+    <wire from="(600,340)" to="(640,340)"/>
+    <wire from="(370,300)" to="(370,320)"/>
+    <wire from="(600,730)" to="(600,760)"/>
+    <wire from="(630,880)" to="(630,910)"/>
+    <wire from="(560,280)" to="(560,360)"/>
+    <wire from="(710,530)" to="(710,740)"/>
+    <wire from="(1030,520)" to="(1030,540)"/>
+    <wire from="(1030,640)" to="(1030,660)"/>
+    <wire from="(680,590)" to="(680,760)"/>
+    <wire from="(690,380)" to="(690,420)"/>
+    <wire from="(800,280)" to="(800,390)"/>
+    <wire from="(560,680)" to="(580,680)"/>
+    <wire from="(670,310)" to="(670,420)"/>
+    <wire from="(360,300)" to="(360,780)"/>
+    <wire from="(640,320)" to="(660,320)"/>
+    <wire from="(600,720)" to="(620,720)"/>
+    <wire from="(690,660)" to="(1030,660)"/>
+    <wire from="(250,530)" to="(270,530)"/>
+    <wire from="(600,610)" to="(1080,610)"/>
+    <wire from="(540,770)" to="(570,770)"/>
+    <wire from="(470,350)" to="(490,350)"/>
+    <wire from="(620,330)" to="(650,330)"/>
+    <wire from="(390,280)" to="(390,320)"/>
+    <wire from="(620,480)" to="(620,710)"/>
+    <wire from="(490,380)" to="(500,380)"/>
+    <wire from="(540,520)" to="(540,770)"/>
+    <wire from="(630,550)" to="(1080,550)"/>
+    <wire from="(320,310)" to="(400,310)"/>
+    <wire from="(590,540)" to="(590,730)"/>
+    <wire from="(380,350)" to="(380,400)"/>
+    <wire from="(1130,460)" to="(1130,500)"/>
+    <wire from="(1130,580)" to="(1130,620)"/>
+    <wire from="(720,390)" to="(800,390)"/>
+    <wire from="(690,380)" to="(700,380)"/>
+    <wire from="(660,310)" to="(670,310)"/>
+    <wire from="(720,600)" to="(1030,600)"/>
+    <wire from="(670,730)" to="(720,730)"/>
+    <wire from="(980,520)" to="(980,530)"/>
+    <wire from="(630,550)" to="(630,690)"/>
+    <wire from="(980,640)" to="(980,650)"/>
+    <wire from="(680,280)" to="(680,420)"/>
+    <wire from="(720,600)" to="(720,730)"/>
+    <wire from="(250,510)" to="(250,520)"/>
+    <wire from="(1080,460)" to="(1080,490)"/>
+    <wire from="(1080,580)" to="(1080,610)"/>
+    <wire from="(660,280)" to="(660,310)"/>
+    <wire from="(670,730)" to="(670,760)"/>
+    <wire from="(650,790)" to="(650,820)"/>
+    <wire from="(660,490)" to="(660,710)"/>
+    <wire from="(320,310)" to="(320,520)"/>
+    <wire from="(660,490)" to="(1080,490)"/>
+    <wire from="(490,350)" to="(490,380)"/>
+    <wire from="(350,530)" to="(350,810)"/>
+    <wire from="(700,400)" to="(700,420)"/>
+    <wire from="(720,740)" to="(720,760)"/>
+    <wire from="(600,380)" to="(600,420)"/>
+    <wire from="(620,720)" to="(620,760)"/>
+    <wire from="(320,520)" to="(540,520)"/>
+    <wire from="(220,540)" to="(250,540)"/>
+    <wire from="(660,720)" to="(660,760)"/>
+    <wire from="(610,700)" to="(630,700)"/>
+    <wire from="(600,610)" to="(600,720)"/>
+    <wire from="(710,750)" to="(740,750)"/>
+    <wire from="(730,400)" to="(820,400)"/>
+    <wire from="(690,660)" to="(690,760)"/>
+    <wire from="(610,680)" to="(1130,680)"/>
+    <wire from="(530,380)" to="(600,380)"/>
+    <wire from="(360,300)" to="(370,300)"/>
+    <wire from="(620,360)" to="(620,420)"/>
+    <wire from="(650,710)" to="(650,760)"/>
+    <wire from="(580,470)" to="(980,470)"/>
+    <wire from="(590,370)" to="(590,420)"/>
+    <wire from="(610,710)" to="(610,760)"/>
+    <wire from="(620,280)" to="(620,330)"/>
+    <wire from="(650,710)" to="(660,710)"/>
+    <wire from="(660,720)" to="(670,720)"/>
+    <wire from="(570,750)" to="(580,750)"/>
+    <wire from="(590,730)" to="(600,730)"/>
+    <wire from="(610,710)" to="(620,710)"/>
+    <wire from="(650,450)" to="(650,650)"/>
+    <wire from="(490,350)" to="(550,350)"/>
+    <wire from="(390,390)" to="(710,390)"/>
+    <wire from="(680,450)" to="(680,590)"/>
+    <wire from="(310,300)" to="(360,300)"/>
+    <wire from="(300,530)" to="(350,530)"/>
+    <wire from="(400,310)" to="(400,320)"/>
+    <wire from="(580,280)" to="(580,350)"/>
+    <wire from="(370,280)" to="(370,290)"/>
+    <wire from="(730,670)" to="(730,760)"/>
+    <wire from="(590,450)" to="(590,540)"/>
+    <wire from="(720,390)" to="(720,420)"/>
+    <wire from="(620,450)" to="(620,480)"/>
+    <wire from="(730,450)" to="(730,670)"/>
+    <wire from="(690,450)" to="(690,660)"/>
+    <wire from="(640,340)" to="(640,420)"/>
+    <wire from="(710,450)" to="(710,530)"/>
+    <wire from="(1030,460)" to="(1030,480)"/>
+    <wire from="(380,290)" to="(380,320)"/>
+    <wire from="(1030,580)" to="(1030,600)"/>
+    <wire from="(640,620)" to="(1130,620)"/>
+    <wire from="(580,450)" to="(580,470)"/>
+    <wire from="(590,740)" to="(590,760)"/>
+    <wire from="(720,450)" to="(720,600)"/>
+    <wire from="(610,680)" to="(610,700)"/>
+    <wire from="(730,400)" to="(730,420)"/>
+    <wire from="(220,510)" to="(250,510)"/>
+    <wire from="(660,450)" to="(660,490)"/>
+    <wire from="(640,450)" to="(640,620)"/>
+    <wire from="(670,450)" to="(670,560)"/>
+    <wire from="(590,370)" to="(610,370)"/>
+    <wire from="(300,520)" to="(320,520)"/>
+    <wire from="(730,670)" to="(1080,670)"/>
+    <wire from="(600,450)" to="(600,610)"/>
+    <wire from="(670,560)" to="(670,720)"/>
+    <wire from="(360,780)" to="(570,780)"/>
+    <wire from="(630,450)" to="(630,550)"/>
+    <wire from="(660,320)" to="(660,420)"/>
+    <wire from="(700,280)" to="(700,380)"/>
+    <wire from="(610,450)" to="(610,680)"/>
+    <wire from="(820,280)" to="(820,400)"/>
+    <wire from="(630,700)" to="(630,760)"/>
+    <wire from="(700,450)" to="(700,500)"/>
+    <wire from="(1130,640)" to="(1130,680)"/>
+    <wire from="(350,810)" to="(610,810)"/>
+    <wire from="(1130,520)" to="(1130,560)"/>
+    <wire from="(580,370)" to="(580,420)"/>
+    <wire from="(650,650)" to="(980,650)"/>
+    <wire from="(710,740)" to="(720,740)"/>
+    <wire from="(580,370)" to="(590,370)"/>
+    <wire from="(670,560)" to="(1130,560)"/>
+    <comp lib="6" loc="(1040,825)" name="Text">
       <a name="text" val="=&gt; To input the plain text, use the switches provided for 0 and 1."/>
       <a name="font" val="Times New Roman plain 14"/>
     </comp>
-    <comp lib="5" loc="(1010,550)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-    </comp>
-    <comp lib="0" loc="(450,260)" name="Constant"/>
-    <comp lib="0" loc="(680,190)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="5" loc="(1110,370)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-    </comp>
-    <comp lib="0" loc="(560,190)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(1045,348)" name="Text">
-      <a name="text" val="Matrix Obtained after 2 rounds of encryption"/>
-      <a name="font" val="Times New Roman bold 12"/>
-    </comp>
-    <comp lib="0" loc="(200,420)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="INPUT-1"/>
-    </comp>
-    <comp lib="6" loc="(371,167)" name="Text">
-      <a name="text" val="COUNTER INITIAL"/>
-    </comp>
-    <comp lib="0" loc="(660,190)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="5" loc="(1010,370)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-    </comp>
-    <comp lib="6" loc="(1230,695)" name="Text">
-      <a name="text" val="=&gt; The counter has to be set with the lock turned to 1. Once the counter value is set, turn lock to 0."/>
-      <a name="font" val="Times New Roman plain 14"/>
-    </comp>
-    <comp lib="1" loc="(510,290)" name="NOT Gate"/>
-    <comp lib="6" loc="(1239,754)" name="Text">
-      <a name="text" val="=&gt;The output for a given bit has to be recorded using the output ciphertext bit when the input bit is off."/>
-      <a name="font" val="Times New Roman plain 14"/>
-    </comp>
-    <comp lib="5" loc="(1110,490)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-    </comp>
-    <comp lib="6" loc="(614,168)" name="Text">
-      <a name="text" val="8-BIT KEY"/>
-    </comp>
-    <comp lib="1" loc="(610,790)" name="XOR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(290,190)" name="Pin">
+    <comp lib="0" loc="(310,280)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="LOCK"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="6" loc="(625,71)" name="Text">
-      <a name="text" val="Logisim Implementation for ChaCha20 Stream Cipher"/>
+    <comp lib="5" loc="(1080,580)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="0" loc="(660,280)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(675,213)" name="Text">
+      <a name="text" val="MAIN CIRCUIT"/>
       <a name="font" val="Times New Roman bold 52"/>
     </comp>
-    <comp lib="0" loc="(780,190)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(580,190)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(1072,675)" name="Text">
-      <a name="text" val="=&gt; Set initial counter value, 8-bit key, nonce"/>
+    <comp loc="(580,760)" name="Bit-Selector"/>
+    <comp lib="6" loc="(1139,785)" name="Text">
+      <a name="text" val="=&gt; The counter has to be set with the lock turned to 1. Once the counter value is set, turn lock to 0."/>
       <a name="font" val="Times New Roman plain 14"/>
     </comp>
-    <comp lib="0" loc="(800,190)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(540,190)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="5" loc="(1060,490)" name="DotMatrix">
+    <comp lib="5" loc="(1030,640)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(960,550)" name="DotMatrix">
+    <comp lib="6" loc="(1137,867)" name="Text">
+      <a name="text" val="Note* : If any bit is not recorded and is missed by the user, the circuit needs to be reset and the input has to be passed again to obtain from the beginning"/>
+      <a name="font" val="Times New Roman italic 14"/>
+    </comp>
+    <comp lib="0" loc="(680,280)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(1030,520)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="0" loc="(610,820)" name="Pin">
+    <comp lib="0" loc="(560,280)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(580,280)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp loc="(300,520)" name="Plain Text Input"/>
+    <comp lib="0" loc="(700,280)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(391,257)" name="Text">
+      <a name="text" val="COUNTER INITIAL"/>
+    </comp>
+    <comp lib="5" loc="(1130,460)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="0" loc="(220,540)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="INPUT-0"/>
+    </comp>
+    <comp lib="6" loc="(1074,805)" name="Text">
+      <a name="text" val="=&gt; To reset the circuit, simply toggle the lock to 1 and then immediately to 0."/>
+      <a name="font" val="Times New Roman plain 14"/>
+    </comp>
+    <comp lib="5" loc="(1030,580)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="6" loc="(1148,844)" name="Text">
+      <a name="text" val="=&gt;The output for a given bit has to be recorded using the output ciphertext bit when the input bit is off."/>
+      <a name="font" val="Times New Roman plain 14"/>
+    </comp>
+    <comp lib="0" loc="(630,910)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="label" val="OUTPUT CIPHERTEXT"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="5" loc="(960,490)" name="DotMatrix">
+    <comp lib="0" loc="(220,510)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="INPUT-1"/>
+    </comp>
+    <comp lib="5" loc="(1030,460)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(960,430)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-    </comp>
-    <comp loc="(370,260)" name="2-Bit Counter">
+    <comp lib="0" loc="(800,280)" name="Pin">
       <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="5" loc="(1060,370)" name="DotMatrix">
+    <comp lib="0" loc="(820,280)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(980,580)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(1010,490)" name="DotMatrix">
+    <comp lib="5" loc="(980,460)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="6" loc="(791,168)" name="Text">
+    <comp lib="6" loc="(811,258)" name="Text">
       <a name="text" val="NONCE"/>
     </comp>
-    <comp loc="(560,670)" name="Bit-Selector"/>
-    <comp lib="0" loc="(350,190)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp loc="(560,330)" name="Key Stream Generator"/>
-    <comp lib="5" loc="(1060,430)" name="DotMatrix">
+    <comp lib="5" loc="(1130,640)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp loc="(280,430)" name="Plain Text Input"/>
-    <comp lib="0" loc="(620,190)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
+    <comp lib="5" loc="(1130,520)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="0" loc="(640,190)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
+    <comp lib="5" loc="(1080,460)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="6" loc="(1089,645)" name="Text">
+    <comp lib="6" loc="(981,765)" name="Text">
+      <a name="text" val="=&gt; Set initial counter value, 8-bit key, nonce"/>
+      <a name="font" val="Times New Roman plain 14"/>
+    </comp>
+    <comp lib="6" loc="(780,73)" name="Text">
+      <a name="text" val="Logisim Implementation for ChaCha20 Stream Cipher"/>
+      <a name="font" val="Times New Roman bold 64"/>
+    </comp>
+    <comp lib="5" loc="(1080,640)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="1" loc="(630,880)" name="XOR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(998,735)" name="Text">
       <a name="text" val="User Instructions :"/>
       <a name="font" val="Times New Roman bold 12"/>
     </comp>
-    <comp lib="0" loc="(370,190)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(1209,774)" name="Text">
-      <a name="text" val="Note* : If any bit is not recorded and is missed by the user, the circuit needs to be reset and the input has to be passed again to obtain from the beginning"/>
-      <a name="font" val="Times New Roman italic 14"/>
-    </comp>
-    <comp lib="5" loc="(1110,550)" name="DotMatrix">
+    <comp lib="5" loc="(1080,520)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="6" loc="(1165,715)" name="Text">
-      <a name="text" val="=&gt; To reset the circuit, simply toggle the lock to 1 and then immediately to 0."/>
-      <a name="font" val="Times New Roman plain 14"/>
-    </comp>
-    <comp lib="0" loc="(200,450)" name="Pin">
+    <comp lib="0" loc="(620,280)" name="Pin">
+      <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="INPUT-0"/>
+    </comp>
+    <comp lib="1" loc="(530,380)" name="NOT Gate"/>
+    <comp lib="0" loc="(470,350)" name="Constant"/>
+    <comp lib="6" loc="(1065,438)" name="Text">
+      <a name="text" val="Matrix Obtained after 2 rounds of encryption"/>
+      <a name="font" val="Times New Roman bold 12"/>
+    </comp>
+    <comp loc="(390,350)" name="2-Bit Counter">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(600,280)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(390,280)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp loc="(580,420)" name="Key Stream Generator"/>
+    <comp lib="0" loc="(370,280)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(980,520)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="6" loc="(634,258)" name="Text">
+      <a name="text" val="8-BIT KEY"/>
+    </comp>
+    <comp lib="5" loc="(1130,580)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="0" loc="(640,280)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(980,640)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
     </comp>
   </circuit>
   <circuit name="Key Stream Generator">
