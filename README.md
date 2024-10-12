@@ -77,7 +77,7 @@ The main features of our project include removing the very drawbacks in the impl
 
 > Encrpytion Module:
 
-```
+```verilog
 //quarter round generator module
 module qrg (
     input A, B, C, D,         // 4 inputs
@@ -360,7 +360,7 @@ endmodule
 
 Testbench:
 
-```
+```verilog
 //testbench for main module
 module main_tb;
     // Inputs
