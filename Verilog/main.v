@@ -1,5 +1,4 @@
-
-//qurter round generator module
+//quarter round generator module
 module qrg (
     input A, B, C, D,         // 4 inputs
     output reg a, b, c, d     // 4 outputs
