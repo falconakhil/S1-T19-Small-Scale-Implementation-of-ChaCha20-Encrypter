@@ -158,7 +158,7 @@ module plain_text (
 );
 
     // Set the flag if any of the input bits is 1
-    assign flag = plain_text_input1 | plain_text_input2;
+    or(flag,plain_text_input1,plain_text_input2);
 
     // Output the bit value that is set (1 if bit1 is set, otherwise 0)
     assign bit_value = plain_text_input1 ? 1'b1 : 1'b0;
