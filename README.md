@@ -107,6 +107,7 @@ module qrg (
         endcase
     end
 endmodule
+
 //2-bit counter module
 module two_bit_counter (
     input wire clk,         // Clock input
@@ -125,8 +126,8 @@ module two_bit_counter (
             count <= count + 1;  // Increment counter
         end
     end
-
 endmodule
+
 //key stream generator module
 module ksg (
     input [3:0] constant,
@@ -229,8 +230,8 @@ module ksg (
         .c(final_out4[1]),
         .d(final_out4[0])
     );
-
 endmodule
+
 //plain text input module
 module plain_text (
     input wire plain_text_input1,       // First input bit
@@ -244,7 +245,6 @@ module plain_text (
 
     // Output the bit value that is set (1 if bit1 is set, otherwise 0)
     assign bit_value = plain_text_input1 ? 1'b1 : 1'b0;
-
 endmodule
 
 //bit selector for final output
@@ -264,7 +264,6 @@ module four_counter (
             count <= count + 1; // Increment counter
         end
     end
-
 endmodule
 
 module bit_selector (
@@ -295,8 +294,8 @@ module bit_selector (
             default: out = 1'b0;
         endcase
     end
-
 endmodule
+
 //main module
 module main (
     input wire clk,
@@ -369,7 +368,6 @@ module main (
 
     // XOR the bit selector output with the plain-text bit value
     assign final_output = bit_selector_output ^ plain_text_bit_value;
-
 endmodule
 ```
 

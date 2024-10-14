@@ -1,0 +1,29 @@
+[*]
+[*] GTKWave Analyzer v3.3.120 (w)1999-2024 BSI
+[*] Mon Oct 14 11:26:58 2024
+[*]
+[dumpfile] "/home/akhil/Development/ChaCha/Verilog/S1-T19-ChaCha.vcd"
+[dumpfile_mtime] "Mon Oct 14 11:23:23 2024"
+[dumpfile_size] 5816
+[savefile] "/home/akhil/Development/ChaCha/Verilog/S1-T19-ChaCha.gtkw"
+[timestart] 0
+[size] 1920 986
+[pos] -46 -46
+*-5.881280 99 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 209
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+main_tb.final_output
+main_tb.init_value[1:0]
+@22
+main_tb.key[7:0]
+@28
+main_tb.lock
+main_tb.nonce[1:0]
+main_tb.plain_text_input1
+main_tb.plain_text_input2
+main_tb.reset
+[pattern_trace] 1
+[pattern_trace] 0
