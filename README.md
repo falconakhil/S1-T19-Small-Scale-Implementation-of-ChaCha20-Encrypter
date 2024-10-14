@@ -64,7 +64,51 @@ The main features of our project include removing the very drawbacks in the impl
 <details>
   <summary>Detail</summary>
 
-> Update a neat logisim circuit diagram
+>
+
+### Instructions:
+
+```
+Step 1:
+Set initial counter value, 8-bit key and nonce.
+
+Step 2:
+Set lock to 1 to lock the initial counter value and then set it back to 0.
+
+Step 3:
+To give inputs, use the switches for 0 and 1 respectivetly. For example, to give input 1, set '1 switch' to 1, read the output bit and then set it back to 0. Continue the same process for all the input bits.
+
+Step 4:
+To reset the circuit the lock can simply be turned to 1 and then set to 0.
+```
+
+### Overall Circuit:
+
+![image](Snapshots/Logisim_Circuit_Components/main.png)
+
+### Key Stream Generator:
+
+![image](Snapshots/Logisim_Circuit_Components/key_stream_generator.png)
+
+### Bit Selector:
+
+![image](Snapshots/Logisim_Circuit_Components/bit_selector.png)
+
+### Decoder:
+
+![image](Snapshots/Logisim_Circuit_Components/decoder.png)
+
+### Quarter Round Generator:
+
+![image](Snapshots/Logisim_Circuit_Components/quarter_round_generator.png)
+
+### 2-bit Counter:
+
+![image](Snapshots/Logisim_Circuit_Components/2_bit_counter.png)
+
+### Plain Text Input:
+
+![image](Snapshots/Logisim_Circuit_Components/plain_text_input.png)
 
 </details>
 
