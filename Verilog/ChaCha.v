@@ -164,31 +164,36 @@ module plain_text (
     assign bit_value = plain_text_input1 ? 1'b1 : 1'b0;
 
 endmodule
+
 //bit selector for final output
+module four_counter (
+    input clk,                // Clock input
+    input reset,              // Reset input
+    input lock,               // Lock signal
+    output reg [3:0] count    // 4-bit counter output
+);
+
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            count <= 4'b0000;  // Reset counter to 0
+        end else if (lock) begin
+            count <= 4'b1111;  // Set counter to 16 (4'b1111)
+        end else begin
+            count <= count + 1; // Increment counter
+        end
+    end
+
+endmodule
+
 module bit_selector (
     input [15:0] data_in,     // 16-bit input data
     input [3:0] clock_in,     // 4-bit input clock
-    input lock,               // Lock signal
     output reg out            // Selected bit output
 );
 
-    // Internal signals
-    reg [3:0] effective_clock;    // Clock value after lock logic
-    reg [15:0] decoder_out;
-
-    // Lock logic
-    always @(*) begin
-        effective_clock = lock ? 4'b1111 : clock_in;
-    end
-
     // Decoder logic
     always @(*) begin
-        decoder_out = 16'b0000_0000_0000_0001 << effective_clock;
-    end
-
-    // Reversed multiplexer logic
-    always @(*) begin
-        case (effective_clock)
+        case (clock_in)
             4'b0000: out = data_in[15];  // Clock 0 selects last bit
             4'b0001: out = data_in[14];  // Clock 1 selects second-to-last bit
             4'b0010: out = data_in[13];
@@ -226,7 +231,7 @@ module main (
     // Internal signals
     wire [1:0] counter_output;
     wire [3:0] ksg_output1, ksg_output2, ksg_output3, ksg_output4;
-    wire [3:0] constant = 4'b1011;
+    wire [3:0] constant = 4'b1101;
 
     wire bit_selector_output;
     wire plain_text_flag;
@@ -263,12 +268,20 @@ module main (
 
     // Concatenate ksg outputs to form a 16-bit input for bit selector
     wire [15:0] ksg_combined_output = {ksg_output1, ksg_output2, ksg_output3, ksg_output4};
+    wire [3:0] four_out;
+
+    four_counter counter_4 (
+        .clk(plain_text_flag),
+        .reset(reset),
+        .lock(lock),
+        .count(four_out)
+    );
 
     // Instantiate the bit selector
     bit_selector bit_selector_uut (
         .data_in(ksg_combined_output),
-        .clock_in({counter_output, 2'b00}),  // Use counter output as part of clock input
-        .lock(lock),
+        .clock_in(four_out),  // Use counter output as part of clock input
+        // .lock(lock),
         .out(bit_selector_output)
     );
 
