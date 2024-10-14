@@ -44,7 +44,7 @@ module main_tb;
         init_value = 2'b00;
 
         // Dump waveform data
-        $dumpfile("S1-T19-ChaCha.vcd");
+        $dumpfile("S1-T19.vcd");
         $dumpvars(0, main_tb);
 
         // Apply test vectors
