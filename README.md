@@ -53,7 +53,8 @@ The main features of our project include removing the very drawbacks in the impl
 <details>
   <summary>Detail</summary>
 
-> Explain how your model works with the help of a functional table (compulsory) followed by the flowchart.
+  >
+The ChaCha20 cypher is a stream cypher. Here, the main focus is on encrypting the key and using it to generate a stream of characters that is XORed with the plaintext to produce the ciphertext. Its implementation contains a 2-bit counter. The user has to input the counter's initial state, the key and the nonce. The plaintext is input using two switches, one for 0 and the other for 1. The counter gets incremented whenever an input bit is received. These 2 bits from counter, 8 bits of key, 2 bits of nonce and 4 bits of constants are all passed to the key-stream-generator. These 16 bits are placed in a virtual matrix and undergo two rounds of encryption(the first round encrypts the columns, and the second encrypts the diagonals of the matrix). Each round contains four quarter rounds. A quarter round takes 4 bits as input and generates 4 bits as output. After the two rounds of encryption, the control goes to the Bit Selector. On observation, among those 16 bits, 6 bits of the matrix undergo toggling after every character input(denoted by D), 4 bits undergo toggling on every alternate input bit(denoted by A), and 6 bits remain static and do not change(denoted by S). The bit Selector selects the bits in the following order: D S A D S A D S A D S A D S. This way of selecting bits assures maximum diffusion in the generated key stream. Finally, the bit received from the key stream is XORed with the input bit to produce the output.
 
 </details>
 
