@@ -445,7 +445,7 @@ module main_tb;
 
     initial begin
         // Monitor the outputs
-        $monitor("At time %t, key = %b, nonce = %b, plain_text_input1 = %b,plain_text_input2 = %b, lock = %b, counter_init_value = %b, final_output = %b",
+        $monitor("At time %t, key = %b, nonce = %b, plain_text_input1 = %b,plain_text_input0 = %b, lock = %b, counter_init_value = %b, final_output = %b",
                  $time, key, nonce, plain_text_input1,plain_text_input2, lock, init_value,final_output);
     end
 endmodule

@@ -44,7 +44,7 @@ module main_tb;
         init_value = 2'b00;
 
         // Dump waveform data
-        $dumpfile("ChaCha.vcd");
+        $dumpfile("S1-T19-ChaCha.vcd");
         $dumpvars(0, main_tb);
 
         // Apply test vectors
@@ -67,7 +67,7 @@ module main_tb;
 
     initial begin
         // Monitor the outputs
-        $monitor("At time %t, key = %b, nonce = %b, plain_text_input1 = %b,plain_text_input2 = %b, lock = %b, counter_init_value = %b, final_output = %b",
+        $monitor("At time %t, key = %b, nonce = %b, plain_text_input1 = %b,plain_text_input0 = %b, lock = %b, counter_init_value = %b, final_output = %b",
                  $time, key, nonce, plain_text_input1,plain_text_input2, lock, init_value,final_output);
     end
 endmodule

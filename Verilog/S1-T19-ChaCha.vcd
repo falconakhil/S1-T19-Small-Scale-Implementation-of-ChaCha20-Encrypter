@@ -1,0 +1,581 @@
+$date
+	Mon Oct 14 16:53:23 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module main_tb $end
+$var wire 1 ! final_output $end
+$var reg 1 " clk $end
+$var reg 2 # init_value [1:0] $end
+$var reg 8 $ key [7:0] $end
+$var reg 1 % lock $end
+$var reg 2 & nonce [1:0] $end
+$var reg 1 ' plain_text_input1 $end
+$var reg 1 ( plain_text_input2 $end
+$var reg 1 ) reset $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 4 * constant [3:0] $end
+$var wire 1 ! final_output $end
+$var wire 2 + init_value [1:0] $end
+$var wire 8 , key [7:0] $end
+$var wire 1 % lock $end
+$var wire 2 - nonce [1:0] $end
+$var wire 1 ' plain_text_input1 $end
+$var wire 1 ( plain_text_input2 $end
+$var wire 1 ) reset $end
+$var wire 1 . plain_text_flag $end
+$var wire 1 / plain_text_bit_value $end
+$var wire 4 0 ksg_output4 [3:0] $end
+$var wire 4 1 ksg_output3 [3:0] $end
+$var wire 4 2 ksg_output2 [3:0] $end
+$var wire 4 3 ksg_output1 [3:0] $end
+$var wire 16 4 ksg_combined_output [15:0] $end
+$var wire 4 5 four_out [3:0] $end
+$var wire 2 6 counter_output [1:0] $end
+$var wire 1 7 bit_selector_output $end
+$scope module bit_selector_uut $end
+$var wire 16 8 data_in [15:0] $end
+$var wire 4 9 clock_in [3:0] $end
+$var reg 1 7 out $end
+$upscope $end
+$scope module counter_4 $end
+$var wire 1 % lock $end
+$var wire 1 ) reset $end
+$var wire 1 . clk $end
+$var reg 4 : count [3:0] $end
+$upscope $end
+$scope module counter_uut $end
+$var wire 2 ; init_value [1:0] $end
+$var wire 1 % lock $end
+$var wire 1 ) reset $end
+$var wire 1 . clk $end
+$var reg 2 < count [1:0] $end
+$upscope $end
+$scope module ksg_uut $end
+$var wire 4 = constant [3:0] $end
+$var wire 2 > counter [1:0] $end
+$var wire 8 ? key [7:0] $end
+$var wire 2 @ nonce [1:0] $end
+$var wire 4 A qrg_out4 [3:0] $end
+$var wire 4 B qrg_out3 [3:0] $end
+$var wire 4 C qrg_out2 [3:0] $end
+$var wire 4 D qrg_out1 [3:0] $end
+$var wire 4 E final_out4 [3:0] $end
+$var wire 4 F final_out3 [3:0] $end
+$var wire 4 G final_out2 [3:0] $end
+$var wire 4 H final_out1 [3:0] $end
+$scope module qrg1 $end
+$var wire 1 I A $end
+$var wire 1 J B $end
+$var wire 1 K C $end
+$var wire 1 L D $end
+$var reg 1 M a $end
+$var reg 1 N b $end
+$var reg 1 O c $end
+$var reg 1 P d $end
+$upscope $end
+$scope module qrg2 $end
+$var wire 1 Q A $end
+$var wire 1 R B $end
+$var wire 1 S C $end
+$var wire 1 T D $end
+$var reg 1 U a $end
+$var reg 1 V b $end
+$var reg 1 W c $end
+$var reg 1 X d $end
+$upscope $end
+$scope module qrg3 $end
+$var wire 1 Y A $end
+$var wire 1 Z B $end
+$var wire 1 [ C $end
+$var wire 1 \ D $end
+$var reg 1 ] a $end
+$var reg 1 ^ b $end
+$var reg 1 _ c $end
+$var reg 1 ` d $end
+$upscope $end
+$scope module qrg4 $end
+$var wire 1 a A $end
+$var wire 1 b B $end
+$var wire 1 c C $end
+$var wire 1 d D $end
+$var reg 1 e a $end
+$var reg 1 f b $end
+$var reg 1 g c $end
+$var reg 1 h d $end
+$upscope $end
+$scope module qrg5 $end
+$var wire 1 i A $end
+$var wire 1 j B $end
+$var wire 1 k C $end
+$var wire 1 l D $end
+$var reg 1 m a $end
+$var reg 1 n b $end
+$var reg 1 o c $end
+$var reg 1 p d $end
+$upscope $end
+$scope module qrg6 $end
+$var wire 1 q A $end
+$var wire 1 r B $end
+$var wire 1 s C $end
+$var wire 1 t D $end
+$var reg 1 u a $end
+$var reg 1 v b $end
+$var reg 1 w c $end
+$var reg 1 x d $end
+$upscope $end
+$scope module qrg7 $end
+$var wire 1 y A $end
+$var wire 1 z B $end
+$var wire 1 { C $end
+$var wire 1 | D $end
+$var reg 1 } a $end
+$var reg 1 ~ b $end
+$var reg 1 !" c $end
+$var reg 1 "" d $end
+$upscope $end
+$scope module qrg8 $end
+$var wire 1 #" A $end
+$var wire 1 $" B $end
+$var wire 1 %" C $end
+$var wire 1 &" D $end
+$var reg 1 '" a $end
+$var reg 1 (" b $end
+$var reg 1 )" c $end
+$var reg 1 *" d $end
+$upscope $end
+$upscope $end
+$scope module plain_text_uut $end
+$var wire 1 . flag $end
+$var wire 1 ' plain_text_input1 $end
+$var wire 1 ( plain_text_input2 $end
+$var wire 1 / bit_value $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1*"
+0)"
+1("
+0'"
+0&"
+0%"
+0$"
+1#"
+0""
+0!"
+1~
+0}
+1|
+0{
+1z
+0y
+1x
+0w
+1v
+0u
+0t
+0s
+0r
+1q
+0p
+0o
+1n
+0m
+1l
+0k
+1j
+0i
+1h
+0g
+1f
+0e
+0d
+0c
+0b
+1a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+1X
+0W
+1V
+0U
+0T
+0S
+0R
+1Q
+1P
+0O
+1N
+0M
+0L
+0K
+0J
+1I
+b100 H
+b101 G
+b100 F
+b101 E
+b1010 D
+b1010 C
+b0 B
+b1010 A
+b0 @
+b0 ?
+b0 >
+b1101 =
+b0 <
+b0 ;
+b0 :
+b0 9
+b100010101000101 8
+07
+b0 6
+b0 5
+b100010101000101 4
+b100 3
+b101 2
+b100 1
+b101 0
+0/
+0.
+b0 -
+b0 ,
+b0 +
+b1101 *
+1)
+0(
+0'
+b0 &
+0%
+b0 $
+b0 #
+0"
+0!
+$end
+#5
+1"
+#10
+0"
+0)
+#15
+1"
+#20
+1'"
+0v
+1r
+1W
+1T
+b1 6
+b1 <
+b1 >
+1}
+1!"
+b1111 1
+b1111 F
+1""
+1("
+b1101 0
+b1101 E
+0)"
+0u
+b1 2
+b1 G
+0w
+b111111101 4
+b111111101 8
+b0 3
+b0 H
+0n
+1y
+0#"
+0$"
+0j
+0z
+1%"
+1t
+0l
+1O
+b110 D
+0P
+0U
+0V
+b100 C
+0X
+b10 B
+1^
+1e
+b11 A
+0h
+1\
+1d
+1J
+1K
+1S
+1Z
+1b
+1c
+0"
+b1 #
+b1 +
+b1 ;
+1%
+b11 &
+b11 -
+b11 @
+b11011011 $
+b11011011 ,
+b11011011 ?
+#25
+1"
+#30
+0"
+0%
+#35
+1"
+#40
+17
+1n
+b101 3
+b101 H
+1p
+0~
+b1010 1
+b1010 F
+0""
+0'"
+0("
+b11 0
+b11 E
+1)"
+1u
+1v
+b101111110100011 4
+b101111110100011 8
+b1111 2
+b1111 G
+1w
+1i
+0y
+1$"
+0r
+1M
+b11 D
+0O
+1U
+b1 C
+0W
+1L
+0T
+b1 5
+b1 9
+b1 :
+b10 6
+b10 <
+b10 >
+0!
+1.
+1/
+0"
+1'
+#45
+1"
+#50
+1!
+0.
+0/
+0"
+0'
+#55
+1"
+#60
+1'"
+1("
+b1101 0
+b1101 E
+0)"
+0u
+0v
+b101000110101101 4
+b101000110101101 8
+b1 2
+b1 G
+0w
+0$"
+1r
+0U
+b100 C
+1W
+07
+1T
+b10 5
+b10 9
+b10 :
+b11 6
+b11 <
+b11 >
+1!
+1.
+1/
+0"
+1'
+#65
+1"
+#70
+0!
+0.
+0/
+0"
+0'
+#75
+1"
+#80
+0n
+b0 3
+b0 H
+0p
+1~
+b1111 1
+b1111 F
+1""
+0'"
+0("
+b11 0
+b11 E
+1)"
+1u
+1v
+b111111110011 4
+b111111110011 8
+b1111 2
+b1111 G
+1w
+0i
+1y
+1$"
+0r
+0M
+b110 D
+1O
+1U
+b1 C
+0W
+07
+0L
+0T
+b11 5
+b11 9
+b11 :
+b0 6
+b0 <
+b0 >
+1!
+1.
+1/
+0"
+1'
+#85
+1"
+#90
+0!
+0.
+0/
+0"
+0'
+#95
+1"
+#100
+1!
+17
+0}
+0~
+b10 1
+b10 F
+0""
+1m
+1n
+b1101 3
+b1101 H
+1p
+0u
+b101 2
+b101 G
+0w
+1'"
+b1101010100101001 4
+b1101010100101001 8
+b1001 0
+b1001 E
+0)"
+1{
+1k
+0t
+1&"
+1]
+b111 B
+1_
+0e
+b110 A
+1g
+0\
+0d
+0"
+b0 &
+b0 -
+b0 @
+#105
+1"
+#110
+0"
+#115
+1"
+#120
+0"
+#125
+1"
+#130
+0"
+#135
+1"
+#140
+0"
+#145
+1"
+#150
+0"
+#155
+1"
+#160
+0"
+#165
+1"
+#170
+0"
+#175
+1"
+#180
+0"
+#185
+1"
+#190
+0"
+#195
+1"
+#200
+0"
