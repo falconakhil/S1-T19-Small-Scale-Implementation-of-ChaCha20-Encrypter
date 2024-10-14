@@ -234,7 +234,7 @@ module main (
 
     // Instantiate the two_bit_counter
     two_bit_counter counter_uut (
-        .clk(clk),
+        .clk(plain_text_flag),
         .reset(reset),
         .init_value(init_value),
         .lock(lock),
